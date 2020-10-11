@@ -1,0 +1,43 @@
+{
+  "name": "gulp4-scss-pug-es6-setup",
+  "version": "1.0.0",
+  "description": "gulp4 pug scss es6 browsersync setup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendfunn/gulp4-scss-pug-es6-setup.git"
+  },
+  "author": "frontendfunn",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "autoprefixer": "^9.8.5",
+    "browser-sync": "^2.26.10",
+    "cssnano": "^4.1.10",
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "tailwindcss": "^1.5.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontendfunn/gulp4-scss-pug-es6-setup/issues"
+  },
+  "homepage": "https://github.com/frontendfunn/gulp4-scss-pug-es6-setup#readme"
+}

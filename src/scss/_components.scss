@@ -1,0 +1,28 @@
+.avatar,
+.icon {
+  @apply h-12;
+  @apply w-12;
+  @apply rounded-full;
+  @apply overflow-hidden;
+  @apply inline-flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply flex-shrink-0;
+  @apply flex-grow-0;
+  @apply cursor-pointer;
+}
+.icon {
+  @apply text-gray-600;
+  @apply h-12;
+  @apply w-12;
+  span {
+    @apply text-xl;
+  }
+  &:hover {
+    @apply bg-gray-400;
+  }
+}
+
+.avatar > img {
+  object-fit: cover;
+}
